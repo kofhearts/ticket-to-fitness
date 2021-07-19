@@ -102,4 +102,15 @@ class GymModel
       return false;
     }
   }
+
+  public function fetchActiveActivity(){
+    $this->db->query('SELECT * FROM gym_activity WHERE status = :status');
+    $this->db->bind(':status', 1);
+    $row = $this->db->resultSet();
+
+    if ($this->db->rowCount() > 0) {
+
+      return $row;
+    }
+  }
 }

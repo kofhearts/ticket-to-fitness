@@ -12,8 +12,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
   
+
+  <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/css/style.css"> <!--There is already styles location mentioned above but due to 
+  some reason the homepage css only takes the path with public -->
+
   <title><?php echo SITENAME; ?></title>
 
 </head>

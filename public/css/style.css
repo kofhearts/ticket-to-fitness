@@ -107,3 +107,160 @@ h3 {
 p {
     font-family: 'Poppins', sans-serif;
 }
+
+/*New LandingPage*/
+
+.landing-image {
+    position: relative;
+    text-align: center;
+  }
+
+  .img-responsive {
+    width: 100%;
+  }
+
+  .text-overlay-1 {
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+
+  }
+
+  .text-overlay-2 {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+  }
+
+  .text-overlay-3 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+  }
+
+  .text-overlay-4 {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+  }
+
+  .land-text-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+  }
+
+  .land-text-2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #EF8830;
+    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+  }
+
+  .land-text-3 {
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+
+  .land-text-4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #EF8830;
+  }
+
+  .land-text-5 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+
+  }
+
+  .land-login-btn {
+    background-color: #EF8830;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    width: 75%;
+    height: 45px;
+  }
+
+  .land-learnmore-btn {
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 12px;
+    border-color: #EF8830;
+    border-width: thin;
+    width: 75%;
+    height: 45px;
+  }
+
+  .land-seeall-btn {
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 12px;
+    border-color: #EF8830;
+    border-width: thin;
+    width: 75%;
+    height: 45px;
+  }
+
+  .btn-arrow-1 {
+    padding-left: 5px;
+
+  }
+
+  .category-btn-left {
+    width: 75%;
+    height: 75px;
+    align-items: left;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50px;
+    border-color: #3F3F3F;
+    border-width: 2px;
+    text-align: left;
+    position: relative;
+  }
+
+  .category-col {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20px;
+  }
+
+  .category-img-left {
+    margin-left: -1px;
+    margin-right: 5px;
+  }
+
+  .category-btn-right {
+    width: 75%;
+    height: 74px;
+    align-items: right;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50px;
+    border-color: #3F3F3F;
+    border-width: 2px;
+    text-align: right;
+  }
+
+  .category-img-right {
+    position: relative;
+    margin-right: -2px;
+  }
+
+  .btn-arrow-left {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+
+  }
+
+  .btn-arrow-right {}

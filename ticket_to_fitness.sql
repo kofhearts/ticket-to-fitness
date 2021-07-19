@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 17, 2021 at 08:30 AM
+-- Generation Time: May 26, 2021 at 04:54 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.3.27
 
@@ -56,19 +56,19 @@ CREATE TABLE `gym_activity` (
   `sessions_per_week` int(20) NOT NULL,
   `max_capacity` int(20) NOT NULL,
   `price_per_week` int(20) NOT NULL,
-  `description` varchar(255) NOT NULL
+  `description` varchar(255) NOT NULL,
+  `status` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `gym_activity`
 --
 
-INSERT INTO `gym_activity` (`id`, `gym_id`, `activity_name`, `category`, `sessions_per_week`, `max_capacity`, `price_per_week`, `description`) VALUES
-(13, 11, 'Pilates for a week', 'Pilates', 9, 89, 49, 'This is a great workout'),
-(14, 11, 'Workout A', 'Normal', 5, 20, 99, 'This is a normal workout.For a limited time only, we are offering a very special package'),
-(15, 11, 'Workout B', 'High Intensity', 2, 25, 78, 'This is a high intensity workout. For a limited time only, we are offering a very special package'),
-(16, 11, 'Gymastic', 'High Intensity', 34, 21, 15, 'This is a gymnastic class offered by one of our top trainer. Please bring your gears Offer for only 10 days.'),
-(22, 11, 'Basketball', 'Normal', 5, 80, 39, 'This is a basketball');
+INSERT INTO `gym_activity` (`id`, `gym_id`, `activity_name`, `category`, `sessions_per_week`, `max_capacity`, `price_per_week`, `description`, `status`) VALUES
+(24, 11, 'High Intensity Workout', 'Pilates', 45, 20, 30, 'This is a high intensity workout. For a limited time only, we are offering a very special package', 1),
+(25, 11, 'Normal Intensity Workout', 'Pilates', 45, 20, 30, 'This is a high intensity workout. For a limited time only, we are offering a very special package', 1),
+(26, 11, 'Gynastic', 'Pilates', 9, 12, 15, 'This is a gymnastic class offered by one of our top trainer. Please bring your gears Offer for only 10 days.', 1),
+(27, 11, 'Gym', 'High Intensity', 1, 20, 15, 'This is a great workout', 1);
 
 -- --------------------------------------------------------
 
@@ -135,7 +135,8 @@ INSERT INTO `users` (`id`, `username`, `firstname`, `lastname`, `email`, `passwo
 (12, 'pikachu', 'pikachu', 'pikachu', 'pikachu@gmail.com', '$2y$10$G4PHO1tMIDgbOQk2LIAJk.Y3Co/GWSzLIdWjQxGStL7LnBuGhAkqO', 'fe2dec42282688c94b363b8a15e630c3', 'not verified', 'SASAffhdjfhdjkhfdkjhfjdhfjhjfdhfdhj', 1),
 (13, 'random', 'random', 'random', 'random@gmail.com', '$2y$10$cSjgHFb37qyni4XqcDQy5OcipXHPBv6dM7n2AT7jY0yFfNGLrbmI.', '3b721707409598c056c51f2ee403a0ea', 'not verified', 'SASAffhdjfhdjkhfdkjhfjdhfjhjfdhfdhj', NULL),
 (14, '&””;Max123', '&””;Max123', 'puru', 'suru@gmail.com', '$2y$10$2D5.zAsI8y9X2Hd/9REgfeIFiGjGpwE1z42THr78w9f.zHXNicUGS', '53845891f2e8fceef4e9043a4e77c1ea', 'not verified', 'SASAffhdjfhdjkhfdkjhfjdhfjhjfdhfdhj', NULL),
-(15, 'MAXYMAXY', 'MAXY', 'MAXY', 'sndpofficialida@gmail.com', '$2y$10$zF8wGJOSVNV/AZA1maOZo.A9SqNYDc2WMhrx4DJmczB03lTiNKgaG', '6ca73309f27b029dc11fa54f9a0fd497', 'not verified', 'SASAffhdjfhdjkhfdkjhfjdhfjhjfdhfdhj', NULL);
+(15, 'MAXYMAXY', 'MAXY', 'MAXY', 'sndpofficialida@gmail.com', '$2y$10$zF8wGJOSVNV/AZA1maOZo.A9SqNYDc2WMhrx4DJmczB03lTiNKgaG', '6ca73309f27b029dc11fa54f9a0fd497', 'not verified', 'SASAffhdjfhdjkhfdkjhfjdhfjhjfdhfdhj', NULL),
+(16, 'sndp12', 'Sandeep', 'Giri', 'sgiri4@utas.edu.au', '$2y$10$zbuBm8yQ2zeEaTE6q9.BrOBKzF5SjT2U4NSGxDtPtFvOCK4kw1GlK', '9ca32f9746fab891e7df39e6a1bd2bf8', 'not verified', 'SASAffhdjfhdjkhfdkjhfjdhfjhjfdhfdhj', NULL);
 
 --
 -- Indexes for dumped tables
@@ -180,7 +181,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `gym_activity`
 --
 ALTER TABLE `gym_activity`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `gym_information`
@@ -192,7 +193,7 @@ ALTER TABLE `gym_information`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- Constraints for dumped tables
