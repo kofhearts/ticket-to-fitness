@@ -1,266 +1,253 @@
 body {
-    padding-top: 65px;
+  padding-top: 65px;
 }
 
 .container {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
 
 /* Landing Page */
 
-
 /*New Nav Bar*/
-
 
 /* Font Awesome Icons have variable width. Added fixed width to fix that.*/
 
 .icon-width {
-    width: 2rem;
+  width: 2rem;
 }
-
 
 /*Password Reset form Container*/
 
 #container-passwordreset {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
 }
-
 
 /*Login Page*/
 
 .login-form {
-    width: 340px;
-    margin: 50px auto;
-    font-size: 15px;
+  width: 340px;
+  margin: 50px auto;
+  font-size: 15px;
 }
 
 .login-form form {
-    margin-bottom: 15px;
-    background: #f7f7f7;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    padding: 30px;
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
 }
 
 .login-form h2 {
-    margin: 0 0 15px;
+  margin: 0 0 15px;
 }
 
 .form-control,
 .btn {
-    min-height: 38px;
-    border-radius: 2px;
+  min-height: 38px;
+  border-radius: 2px;
 }
 
 .btn {
-    font-size: 15px;
-    font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
 }
-
 
 /*Dashboard->Userprofile*/
 
 #container-userprofile {
-    display: flex;
-    justify-content: center;
-    min-height: 80vh;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
 }
-
 
 /*Content display mobile and desktop control */
 
 @media screen and (min-width: 600px) {
-    #desktopHide {
-        display: none;
-    }
+  #desktopHide {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #mobileHide {
-        display: none;
-    }
+  #mobileHide {
+    display: none;
+  }
 }
-
 
 /*H1, H2, H3 -> Font family */
 
 h2 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h3 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*New LandingPage*/
 
 .landing-image {
-    position: relative;
-    text-align: center;
-  }
+  position: relative;
+  text-align: center;
+}
 
-  .img-responsive {
-    width: 100%;
-  }
+.img-responsive {
+  width: 100%;
+}
 
-  .text-overlay-1 {
-    position: absolute;
-    bottom: 35px;
-    right: 15px;
+.text-overlay-1 {
+  position: absolute;
+  bottom: 35px;
+  right: 15px;
+}
 
-  }
+.text-overlay-2 {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+}
 
-  .text-overlay-2 {
-    position: absolute;
-    bottom: 0px;
-    right: 15px;
-  }
+.text-overlay-3 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
 
-  .text-overlay-3 {
-    position: absolute;
-    top: 10px;
-    left: 15px;
+.text-overlay-4 {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
 
-  }
+.land-text-1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+}
 
-  .text-overlay-4 {
-    position: absolute;
-    top: 10px;
-    left: 100px;
-  }
+.land-text-2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ef8830;
+  text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+}
 
-  .land-text-1 {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
-  }
+.land-text-3 {
+  font-size: 25px;
+  font-weight: bold;
+}
 
-  .land-text-2 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #EF8830;
-    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
-  }
+.land-text-4 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ef8830;
+}
 
-  .land-text-3 {
-    font-size: 25px;
-    font-weight: bold;
+.land-text-5 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: right;
+}
 
-  }
+.land-login-btn {
+  background-color: #ef8830;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  width: 75%;
+  height: 45px;
+}
 
-  .land-text-4 {
-    font-size: 25px;
-    font-weight: bold;
-    color: #EF8830;
-  }
+.land-learnmore-btn {
+  background-color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 12px;
+  border-color: #ef8830;
+  border-width: thin;
+  width: 75%;
+  height: 45px;
+}
 
-  .land-text-5 {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: right;
+.land-seeall-btn {
+  background-color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 12px;
+  border-color: #ef8830;
+  border-width: thin;
+  width: 75%;
+  height: 45px;
+}
 
-  }
+.btn-arrow-1 {
+  padding-left: 5px;
+}
 
-  .land-login-btn {
-    background-color: #EF8830;
-    font-family: 'Poppins';
-    font-weight: bold;
-    border-radius: 12px;
-    border: none;
-    width: 75%;
-    height: 45px;
-  }
+.category-btn-left {
+  width: 75%;
+  height: 75px;
+  align-items: left;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 50px;
+  border-color: #3f3f3f;
+  border-width: 2px;
+  text-align: left;
+  position: relative;
+}
 
-  .land-learnmore-btn {
-    background-color: white;
-    font-family: 'Poppins';
-    font-weight: bold;
-    border-radius: 12px;
-    border-color: #EF8830;
-    border-width: thin;
-    width: 75%;
-    height: 45px;
-  }
+.category-col {
+  padding: 0px;
+  margin: 0px;
+  padding-top: 20px;
+}
 
-  .land-seeall-btn {
-    background-color: white;
-    font-family: 'Poppins';
-    font-weight: bold;
-    border-radius: 12px;
-    border-color: #EF8830;
-    border-width: thin;
-    width: 75%;
-    height: 45px;
-  }
+.category-img-left {
+  margin-left: -1px;
+  margin-right: 5px;
+}
 
-  .btn-arrow-1 {
-    padding-left: 5px;
+.category-btn-right {
+  width: 75%;
+  height: 74px;
+  align-items: right;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 50px;
+  border-color: #3f3f3f;
+  border-width: 2px;
+  text-align: right;
+}
 
-  }
+.category-img-right {
+  position: relative;
+  margin-right: -2px;
+}
 
-  .category-btn-left {
-    width: 75%;
-    height: 75px;
-    align-items: left;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 50px;
-    border-color: #3F3F3F;
-    border-width: 2px;
-    text-align: left;
-    position: relative;
-  }
+.btn-arrow-left {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+}
 
-  .category-col {
-    padding: 0px;
-    margin: 0px;
-    padding-top: 20px;
-  }
-
-  .category-img-left {
-    margin-left: -1px;
-    margin-right: 5px;
-  }
-
-  .category-btn-right {
-    width: 75%;
-    height: 74px;
-    align-items: right;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 50px;
-    border-color: #3F3F3F;
-    border-width: 2px;
-    text-align: right;
-  }
-
-  .category-img-right {
-    position: relative;
-    margin-right: -2px;
-  }
-
-  .btn-arrow-left {
-    position: absolute;
-    top: 35%;
-    right: 10%;
-
-  }
-
-  .btn-arrow-right {}
+.btn-arrow-right {
+}
