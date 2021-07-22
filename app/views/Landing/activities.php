@@ -16,7 +16,7 @@
 </div>
 
 <div class="container" style="padding-top: 20px;">
-    <div class="row" style="padding-left: 15px; padding-right: 15px;">
+    <div class="row" style="padding-left: 15px; padding-right: 15px; padding-bottom: 20px;">
         <div class="col-9">
             <div class="search-input">
                 <span class="search-text-icon"><svg id="loupe" xmlns="http://www.w3.org/2000/svg" width="19.261" height="19.261" viewBox="0 0 19.261 19.261">
@@ -37,14 +37,147 @@
             </button>
         </div>
     </div>
-    <div class="container" style="padding-top: 20px;">
+    <div class="container" style="padding-top: 20px; height: 500px; background-color: #f3f3f3">
         <!-- Cards here -->
-        <div class="placeholder-card"></div>
+        <a href="#" class="card-container">
+            <div class="gym-image-container">
+                <img class="gym-image" src="<?php echo URLROOT; ?>/images/golds gym.png">
+            </div>
+            <div class="card-content">
+                <p class="gym-name">Gold's Gym</p>
+                <div class="line-separator"></div>
+                <div class="gym-info-container">
+                    <table style="width:100%;">
+                        <tr>
+                            <td class="card-info-col">
+                                <img class="card-category-image" src="<?php echo URLROOT; ?>/images/weightlift.svg">
+                                <small class="card-cateogry-text">Weightlifting</small>
+                            </td>
+                            <td>
+                                <img class="card-category-image" src="<?php echo URLROOT; ?>/images/location-orange.svg">
+                                <small class="card-cateogry-text">Venice Beach</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="card-info-col">
+                                <img class="card-category-image" src="<?php echo URLROOT; ?>/images/timer-orange.svg">
+                                <small class="card-cateogry-text">x3 weekly</small>
+                            </td>
+                            <td>
+                                <img class="card-category-image" src="<?php echo URLROOT; ?>/images/group-orange.svg">
+                                <small class="card-cateogry-text">Unlimited</small>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="credits-container">
+                <img class="credits-image" class="card-category-image" src="<?php echo URLROOT; ?>/images/credits.svg">
+                <h5>25</h5>
+            </div>
+        </a>
 
     </div>
 </div>
 
 <style>
+    .card-container {
+        margin-left: 15px;
+        margin-right: 15px;
+        flex: 1;
+        flex-direction: row;
+        height: 100px;
+        border-style: solid;
+        border-width: 1;
+        border-radius: 24px;
+        border-color: #707070;
+        align-items: center;
+        display: flex;
+        color: black;
+        outline: none;
+        background-color: white;
+    }
+
+    .card-container:focus {
+        text-decoration: none;
+        color: black;
+    }
+
+    .credits-container {
+        margin-left: 5px;
+    }
+
+    .credits-image {
+        height: 20px;
+        width: 24px;
+    }
+
+    .card-info-col {
+        width: 50%;
+    }
+
+    .card-category-text {
+        font-size: 12px;
+    }
+
+    .card-category-image {
+        height: 18px;
+        width: 18px;
+    }
+
+    .gym-image-container {
+        width: 20%;
+        height: 80px;
+        margin-left: 15px;
+    }
+
+    .gym-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-content {
+        width: 60%;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    .gym-name {
+        height: 10px;
+        font-weight: bold;
+    }
+
+    .line-separator {
+        height: 1px;
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .gym-info-container {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .text-overlay-5 {
         position: absolute;
         top: 50%;

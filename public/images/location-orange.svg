@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Group_145" data-name="Group 145" transform="translate(-218 -350)">
+    <g id="Group_121" data-name="Group 121" transform="translate(175 -338)">
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(43 688)" fill="#ef8830" stroke="#000" stroke-width="0.5">
+        <circle cx="9" cy="9" r="9" stroke="none"/>
+        <circle cx="9" cy="9" r="8.75" fill="none"/>
+      </g>
+    </g>
+    <g id="Icons" transform="translate(225.54 354.539)">
+      <g id="Rounded" transform="translate(-5 -2)">
+        <g id="Communication" transform="translate(0 0)">
+          <g id="_-Round-_-Communication-_-location_on" data-name="-Round-/-Communication-/-location_on">
+            <g id="Group_123" data-name="Group 123">
+              <path id="Path" d="M0,0H12.921V12.921H0Z" fill="none" fill-rule="evenodd"/>
+              <path id="_Icon-Color" data-name="🔹Icon-Color" d="M8.769,2A3.766,3.766,0,0,0,5,5.769c0,2.245,2.38,5.341,3.359,6.52a.535.535,0,0,0,.824,0c.974-1.179,3.354-4.275,3.354-6.52A3.766,3.766,0,0,0,8.769,2Zm0,5.115a1.346,1.346,0,1,1,1.346-1.346A1.346,1.346,0,0,1,8.769,7.115Z" transform="translate(-2.308 -0.923)" fill="#1d1d1d" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
